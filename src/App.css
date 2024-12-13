@@ -1,4 +1,153 @@
-.App {
+.ReservaComunal {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px 10px;
+  background-color: #f9f9f9;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.App-header-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px
+}
+
+.App-header {
+  background-color: #4fa899;
+  color: rgb(14, 13, 13);
+  text-align: center;
+  padding: 10px 60px;
+}
+
+
+.App-header-content {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+  gap: 10px;             
+}
+
+.App-main {
+  padding: 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+
+.App-logo {
+  height: 140px; /* Tamaño del logo */
+  width: auto; 
+}
+
+.App-menu {
+  margin-top: 20px;
+}
+
+.App-menu ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.App-menu li {
+  display: inline;
+}
+
+.App-menu a {
+  text-decoration: none;
+  color: rgb(14, 13, 13);
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.App-menu a:hover {
+  color: #ffd700;
+}
+
+h1 {
+  margin: 0;
+}
+
+form, section {
+  text-align: center;
+  margin: 1em;
+}
+
+input, button {
+  margin: 0.5em;
+}
+
+button {
+  background-color: #4fa899;
+  color: rgb;
+  padding: 0.5em;
+  border: none;
+  cursor: pointer;
+}
+
+.ReservaComunal {
+  text-align: center;
+}
+
+.App-nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.App-nav a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.App-nav a:hover {
+  color: #0056b3;
+}
+
+.eventos-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centrado vertical */
+  align-items: center;    /* Centrado horizontal */
+  min-height: 70vh;       /* Altura mínima para centrar en la pantalla */
+  text-align: center;     /* Alineación del texto */
+  background-color: #f9f9f9; /* Fondo claro para destacar el contenido */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.eventos-container h3 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.eventos-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.eventos-container li {
+  margin: 10px 0;
+  color: #555;
+  font-size: 1.1rem;
+}
+
+
+
+/*.App {
   text-align: center;
 }
 
@@ -35,4 +184,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+}*/

@@ -1,0 +1,28 @@
+.App-footer {
+  background-color: #4fa899;
+  color: #080808;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 0.9rem;
+  border-top: 2px solid #4fa899;
+}
+  
+.App-footer a {
+  color: #080808;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+  
+.App-footer a:hover {
+  color: #080808;
+}
+  
+.App-footer-contact p {
+  margin: 5px 0;
+}
+  
+.App-footer-link {
+  display: inline-block;
+  margin-top: 10px;
+}

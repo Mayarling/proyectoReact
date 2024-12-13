@@ -1,0 +1,51 @@
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #4fa899;
+  color: rgb(8, 8, 8);
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.App-header-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.App-logo {
+  height: 130px;
+}
+
+.App-menu {
+  margin-top: 20px;
+}
+  
+ 
+  
+.App-menu ul {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+  
+.App-menu li {
+  display: inline;
+}
+  
+.App-menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+  
+.App-menu a:hover {
+  color: #ffd700;
+}
+  
